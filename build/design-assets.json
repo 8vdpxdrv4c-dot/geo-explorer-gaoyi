@@ -1,0 +1,9 @@
+{
+  "asset": "E:/动画制作/高一地理/site/assets/hero.png",
+  "generation_mode": "built-in image_gen",
+  "prompt": "Use case: photorealistic-natural. Asset type: full bleed hero background for an elegant Chinese high school geography learning website. Create a breathtaking realistic panoramic landscape photograph, horizontal 3:2 composition, karst limestone mountains in southern China, a winding jade-green river through layered deep forested peaks, wisps of white morning mist in the valleys, soft early morning golden light. Rich natural forest green, muted teal water, pale blue-gray hazy distant ridges. Beautiful aerial view, meticulously detailed natural terrain. Left half slightly dark deep green hills suitable for white text overlay, sweeping river and more illuminated peaks on the right. The image is an atmospheric illustrative landscape, not a labeled scientific diagram or exact geographical map. No lettering, no typography, no borders, no logos, no watermark, no people.",
+  "other_asset": {
+    "path": "E:/动画制作/高一地理/site/assets/earth.jpg",
+    "source": "https://education.nationalgeographic.org/resource/earth/"
+  }
+}

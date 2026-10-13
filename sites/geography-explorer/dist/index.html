@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#1e493b">
+  <meta name="description" content="从一粒土壤，到浩瀚宇宙。探索人教版高中地理必修两册，阅读教材、研究问题，记录自己的学习足迹。">
+  <title>地理之间 · 高中地理探索学习站</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">跳转到主要内容</a>
+  <aside class="sidebar" id="sidebar" aria-label="网站导航">
+    <a class="brand" href="#home"><span class="brand-mark" data-icon="globe"></span><span>地理之间<small>GEO EXPLORER</small></span></a>
+    <div class="edition">人教版 · 高中地理必修</div>
+    <nav class="primary-nav" id="primaryNav">
+      <a href="#home" data-nav="home"><span data-icon="compass"></span>探索首页</a>
+      <a href="#courses" data-nav="courses"><span data-icon="book"></span>全部课程<span class="nav-count">11</span></a>
+      <a href="#research" data-nav="research"><span data-icon="spark"></span>问题研究</a>
+      <a href="#saved" data-nav="saved"><span data-icon="bookmark"></span>我的收藏<span class="nav-count" id="savedCount">0</span></a>
+    </nav>
+    <div class="side-label">探索两册教材</div>
+    <nav class="book-nav">
+      <a href="#courses/book1"><span class="book-dot"></span><span>必修第一册<small>自然地理 · 认识我们的星球</small></span><span data-icon="chevron"></span></a>
+      <a href="#courses/book2"><span class="book-dot gold"></span><span>必修第二册<small>人文地理 · 理解人与大地</small></span><span data-icon="chevron"></span></a>
+    </nav>
+    <div class="side-bottom"><div class="progress-card" id="sideProgress"></div><p class="side-note">保持好奇，世界就是课堂。<span>EXPLORE · UNDERSTAND · CONNECT</span></p></div>
+  </aside>
+  <button class="scrim" id="scrim" aria-label="关闭导航" hidden></button>
+  <div class="workspace">
+    <header class="topbar">
+      <button class="icon-button mobile-menu" id="menuBtn" aria-label="打开导航" aria-expanded="false"><span data-icon="menu"></span></button>
+      <div class="top-context"><span id="pageLabel">学习空间</span><span class="top-divider">/</span><strong id="pageContext">探索首页</strong></div>
+      <button class="search-trigger" id="searchTrigger" aria-label="搜索知识、章节与问题"><span data-icon="search"></span><span>搜索知识、章节与问题</span><kbd>Ctrl K</kbd></button>
+      <span class="student-avatar" title="本地学习空间">学</span>
+    </header>
+    <main id="main" tabindex="-1"></main>
+    <footer class="footer"><span>地理之间 <span class="footer-dot">·</span> 让知识与世界相遇</span><span>基于人教版高中地理必修两册 <button id="aboutBtn">内容说明</button></span></footer>
+  </div>
+  <dialog id="searchDialog" class="search-dialog" aria-label="搜索教材">
+    <div class="search-input-wrap"><span data-icon="search"></span><input type="search" id="searchInput" placeholder="想探索什么？试试“水循环”" autocomplete="off" aria-label="搜索章节和教材正文"><button class="icon-button" data-close="searchDialog" aria-label="关闭搜索"><span data-icon="close"></span></button></div>
+    <div id="searchStatus" class="search-status" aria-live="polite"></div><div id="searchResults" class="search-results"></div>
+  </dialog>
+  <dialog id="imageDialog" class="image-dialog" aria-label="原书页面大图"><div class="image-toolbar"><strong id="imageCaption"></strong><button class="icon-button" data-close="imageDialog" aria-label="关闭原书大图"><span data-icon="close"></span></button></div><img id="largeImage" alt="原书页面"></dialog>
+  <dialog id="aboutDialog" class="about-dialog" aria-labelledby="aboutTitle"><button class="icon-button close-about" data-close="aboutDialog" aria-label="关闭内容说明"><span data-icon="close"></span></button><span class="eyebrow">ABOUT THIS SPACE</span><h2 id="aboutTitle">把教材，连接到世界。</h2><p>本站整理自本地提供的人教版高中地理必修第一册、第二册，保留全部 57 个阅读节点及对应原书图片。正文由原书提取，图表、公式和复杂版式请以原书页面为准。</p><p>收藏、已学标记与阅读位置仅保存在当前浏览器，不会跨设备同步。</p><p class="muted">首页山川图为 AI 生成的氛围示意图；教材配图来自原书。地球照片来源：<a href="https://education.nationalgeographic.org/resource/earth/" target="_blank" rel="noopener noreferrer">National Geographic Education / NASA</a>。</p></dialog>
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+  <script src="data/content.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

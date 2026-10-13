@@ -1,0 +1,11 @@
+{
+  "project_id": "appgprj_6accc17b43ac8191bbb8f6a76f4ad37b",
+  "version_id": "appgprj_6accc17b43ac8191bbb8f6a76f4ad37b~appgver_aeb06cc7242081919633ed78bc6e39ee",
+  "deployment_id": "appgdep_6accc7ebacfc81918ba653559f83d589",
+  "status": "succeeded",
+  "url": "https://geo-explorer-gaoyi-20261012.maklove120092.chatgpt.site",
+  "commit_sha": "66b87e9cec3e74958880dcb1fe51f4321c2dfeb0",
+  "updated_at": "2026-10-12T11:44:04.962191+00:00",
+  "source_folder": "E:/动画制作/高一地理/site",
+  "hosting_checkout": "E:/动画制作/高一地理/sites/geography-explorer"
+}
